@@ -1,0 +1,67 @@
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title> 연습 </title>
+	</head>
+	<body>
+		<pre>
+사 랑 사 랑
+ 사 랑 사 랑
+	사			랑	사	랑
+		</pre>
+			사                                    랑<br>
+			사&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp랑<br>
+<!------------------------------------------------------------------------------------->
+		<MARQUEE scrollamount=30 bgcolor="#FF0000" direction="right" behavior=alternate>
+			<font face="나눔고딕체" size=25 color="ffffff">움직인다</font><br>
+			<font face="궁서체" color="ffffff">움직인다</font>
+		</MARQUEE>
+		<p>
+		<MARQUEE scrollamount=30 bgcolor="#FF0000" direction="left" behavior=alternate>
+			<b><font face="arial" size=25 color="RGB(255,0,0)">움직인다</font></b><br>
+		</MARQUEE>
+		</p>
+<!------------------------------------------------------------------------------------->		
+		<ol start="5" type="I">
+		<li type="a"> 빨간장미
+		<li> 파란장미
+		<li value="1" type="A"> 장미
+		</ol>
+		<ul type="square">
+		<font size="9" color="ff0000"><li> 빨간장미 </font>
+		<li type="circle"> 파란장미
+		</ul>
+<!------------------------------------------------------------------------------------->		
+		<OL>
+		<LI> windows 98 따라하기
+			<OL type="A">
+			<LI> 항목 A </LI>
+			<LI> 항목 B </LI>
+			</OL>
+		</LI>
+		<LI> linux 따라하기
+			<OL type="i">
+			<LI> 항목 A </LI>
+			<LI> 항목 B </LI>
+			</OL>
+		</LI>			
+		<LI> unix 따라하기
+			<OL type="a">
+			<LI> 항목 A </LI>
+			<LI> 항목 B </LI>
+			</OL>
+		</LI>			
+		</OL>
+	</body>
+</html>
+<!------------------------------------------------------------------------------------->		
+<!--
+<UL type="circle"> un list - 비순서 리스트
+<LI> 빨간 장미
+<LI> 노란 장미
+
+<OL type="i"> - order list - 순서 리스트
+<LI>
+<LI>
+</OL>
+-->
